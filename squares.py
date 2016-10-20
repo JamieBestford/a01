@@ -33,5 +33,8 @@ def run_tests():
 
 
 # Edit this code
-def print_squares(a, b):
+def print_squares(a,b):
 
+    for i in range(a,10000000,b):
+        print(i)
+    
